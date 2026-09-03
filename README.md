@@ -7,3 +7,8 @@ Venues provide api's so I'll make use of that, find/arrange the items I can extr
 There might even be a trading limit that Steam enforces? (Might have to confirm that), so making profit might be left for higher value items. (skin value's range from cents to thousands).
 
 For now need to find api's, request their data and pull logic out of them. At first I'll do it in notebooks and when the logic is more complete I'll make scripts.
+
+
+04-06-2026:
+Basically finished up with skinport venue, api call -> messy dataset -> filtered out unneeded fields and added new fields, item metadata (venue, quality_tag,item_type, sticker_finish, wear, timestamp of succeeded api call). Cleaned up the fields further to have normalized dataset.
+It still is messy and in notebook form, the final product should be a .py script and clean code/
